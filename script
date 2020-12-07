@@ -1,0 +1,4 @@
+for i in 1 4 7 8 11
+do
+pypy3 run_search.py -p 3 -s $i >> result3.txt
+done
